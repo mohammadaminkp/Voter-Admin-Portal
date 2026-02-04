@@ -1,0 +1,17 @@
+{
+  "name": "voter-admin-proxy",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7",
+    "dotenv": "^16.0.3",
+    "cors": "^2.8.5",
+    "express-session": "^1.17.3",
+    "connect-sqlite3": "^0.9.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
